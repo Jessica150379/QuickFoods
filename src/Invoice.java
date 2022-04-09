@@ -9,7 +9,8 @@ public class Invoice {
 		formatOutput();
 		
 
-//Create and write to file invoice.txt		
+//Create and write to file invoice.txt	
+// Try/catch blocks handles the possibility of an error, if an error occurs it will print error		
 		try {
 			Formatter f = new Formatter("C:\\invoice.txt");
 					
