@@ -27,7 +27,7 @@ public class Driver {
 //Method that finds the driver based on location and lightest load	
 	public void findDriver() {
 		try {
-			File drivers = new File("C:\\drivers.txt");
+			File drivers = new File("C:\\driver-info.txt");
 			Scanner scan = new Scanner(drivers);
 			while (scan.hasNextLine()) {
 //Save contents and add to List
